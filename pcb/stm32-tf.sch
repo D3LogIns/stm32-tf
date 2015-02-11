@@ -15376,10 +15376,10 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="USER1" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="R-USER1" library="resistor" deviceset="R-EU_" device="R1206" value="4k7"/>
 <part name="C-RST" library="resistor" deviceset="C-EU" device="C1206" value="100nf"/>
-<part name="C-USER1" library="resistor" deviceset="C-EU" device="C1206" value="10nf"/>
+<part name="C-USER1" library="resistor" deviceset="C-EU" device="C1206" value="100nf"/>
 <part name="USER2" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="R-USER2" library="resistor" deviceset="R-EU_" device="R1206" value="4k7"/>
-<part name="C-USER2" library="resistor" deviceset="C-EU" device="C1206" value="10nf"/>
+<part name="C-USER2" library="resistor" deviceset="C-EU" device="C1206" value="100nf"/>
 <part name="JPUSER" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="OK1" library="optocoupler" deviceset="H11L*M" device="" technology="1"/>
 <part name="R-OKB" library="resistor" deviceset="R-EU_" device="R1206" value="330"/>

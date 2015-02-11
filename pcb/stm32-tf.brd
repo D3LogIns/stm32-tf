@@ -2834,7 +2834,7 @@ design rules under a new name.</description>
 </element>
 <element name="R-USER1" library="resistor" package="R1206" value="4k7" x="83.312" y="44.45" rot="MR0"/>
 <element name="C-RST" library="resistor" package="C1206" value="100nf" x="53.467" y="33.909" rot="MR180"/>
-<element name="C-USER1" library="resistor" package="C1206" value="10nf" x="83.312" y="42.291" rot="MR180"/>
+<element name="C-USER1" library="resistor" package="C1206" value="100nf" x="83.312" y="42.291" rot="MR180"/>
 <element name="USER2" library="switch-omron" package="B3F-10XX" value="" x="93.091" y="50.546" rot="R90">
 <attribute name="OC_NEWARK" value="36M3542" x="82.042" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="82.042" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2842,7 +2842,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="82.042" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R-USER2" library="resistor" package="R1206" value="4k7" x="92.202" y="42.164" rot="MR0"/>
-<element name="C-USER2" library="resistor" package="C1206" value="10nf" x="92.202" y="44.323" rot="MR180"/>
+<element name="C-USER2" library="resistor" package="C1206" value="100nf" x="92.202" y="44.323" rot="MR180"/>
 <element name="JPUSER" library="pinhead" package="1X02" value="" x="87.503" y="38.862"/>
 <element name="OK1" library="optocoupler" package="DIL06" value="H11L1M" x="74.041" y="31.115">
 <attribute name="OC_NEWARK" value="72K8643" x="74.041" y="31.115" size="1.778" layer="27" display="off"/>
