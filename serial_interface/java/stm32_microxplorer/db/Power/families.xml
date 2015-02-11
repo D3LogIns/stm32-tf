@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Documents%20and%20Settings/clement%20malleval/Desktop/Projet%20Outils%20Conso/Base%20de%20donn%E9es%20conso%20STM8%20%26%20STM32/PCC%20XML/BD_xml/Version%20final/families.xsd">
+    <Family imageName="STM8.jpg" Name="STM8">
+        <SubFamily Name="STM8L">
+            <Mcu Name="STM8L101xx">
+                <RefName Name="STM8L101F2"/>
+                <RefName Name="STM8L101G2"/>
+                <RefName Name="STM8L101G3"/>
+                <RefName Name="STM8L101F3"/>
+                <RefName Name="STM8L101K3"/>
+            </Mcu>
+            <Mcu Name="STM8L15xxx">
+                <RefName Name="STM8L151C4"/>
+                <RefName Name="STM8L151G4"/>
+                <RefName Name="STM8L151K4"/>
+                <RefName Name="STM8L151C6"/>
+                <RefName Name="STM8L151G6"/>
+                <RefName Name="STM8L151K6"/>
+                <RefName Name="STM8L152C4"/>
+                <RefName Name="STM8L152K4"/>
+                <RefName Name="STM8L152C6"/>
+                <RefName Name="STM8L152K6"/>
+            </Mcu>
+            <Mcu Name="STM8L15xx8_xR6">
+                <RefName Name="STM8L151R6"/>
+                <RefName Name="STM8L151R8"/>
+                <RefName Name="STM8L151M8"/>
+                <RefName Name="STM8L151C8"/>
+                <RefName Name="STM8L152R6"/>
+                <RefName Name="STM8L152R8"/>
+                <RefName Name="STM8L152M8"/>
+                <RefName Name="STM8L152C8"/>
+            </Mcu>
+            <Mcu Name="STM8L162x8">
+                <RefName Name="STM8L162R8"/>
+                <RefName Name="STM8L162M8"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+    <Family imageName="STM32.jpg" Name="STM32L1">
+        <SubFamily Name="STM32L151x6/8/B">
+            <Mcu Name="STM32L151C(6-8-B)Tx">
+                <RefName Name="STM32L151CB"/>
+                <RefName Name="STM32L151C6"/>
+                <RefName Name="STM32L151C8"/>
+            </Mcu>           
+            <Mcu Name="STM32L151C(6-8-B)Ux">
+                <RefName Name="STM32L151CB"/>
+                <RefName Name="STM32L151C6"/>
+                <RefName Name="STM32L151C8"/>
+            </Mcu>
+            <Mcu Name="STM32L151R(6-8-B)Hx">
+                <RefName Name="STM32L151RB"/>
+                <RefName Name="STM32L151R6"/>
+                <RefName Name="STM32L151R8"/>
+            </Mcu>
+            <Mcu Name="STM32L151R(6-8-B)Tx">
+                <RefName Name="STM32L151RB"/>
+                <RefName Name="STM32L151R6"/>
+                <RefName Name="STM32L151R8"/>
+            </Mcu>
+            <Mcu Name="STM32L151V(8-B)Hx">
+                <RefName Name="STM32L151VB"/>
+                <RefName Name="STM32L151V8"/>
+            </Mcu>
+            <Mcu Name="STM32L151V(8-B)Tx">
+                <RefName Name="STM32L151VB"/>
+                <RefName Name="STM32L151V8"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L152x6/8/B">
+            <Mcu Name="STM32L152C(6-8-B)Tx">
+                <RefName Name="STM32L152CB"/>
+                <RefName Name="STM32L152C6"/>
+                <RefName Name="STM32L152C8"/>
+            </Mcu>
+            <Mcu Name="STM32L152C(6-8-B)Ux">
+                <RefName Name="STM32L152CB"/>
+                <RefName Name="STM32L152C6"/>
+                <RefName Name="STM32L152C8"/>
+            </Mcu>
+            <Mcu Name="STM32L152R(6-8-B)Hx">
+                <RefName Name="STM32L152R6"/>
+                <RefName Name="STM32L152R8"/>
+                <RefName Name="STM32L152RB"/>
+            </Mcu>
+            <Mcu Name="STM32L152R(6-8-B)Tx">
+                <RefName Name="STM32L152R6"/>
+                <RefName Name="STM32L152R8"/>
+                <RefName Name="STM32L152RB"/>
+            </Mcu>
+            <Mcu Name="STM32L152V(8-B)Hx">
+                <RefName Name="STM32L152VB"/>
+                <RefName Name="STM32L152V8"/>
+            </Mcu>
+            <Mcu Name="STM32L152V(8-B)Tx">
+                <RefName Name="STM32L152VB"/>
+                <RefName Name="STM32L152V8"/>
+            </Mcu>            
+        </SubFamily>
+        <SubFamily Name="STM32L151xC">
+            <Mcu Name="STM32L151CCTx">
+                <RefName Name="STM32L151CC"/>
+            </Mcu>
+            <Mcu Name="STM32L151CCUx">
+                <RefName Name="STM32L151CC"/>
+            </Mcu>
+            <Mcu Name="STM32L151VCHx">
+                <RefName Name="STM32L151VC"/>
+            </Mcu>
+            <Mcu Name="STM32L151QCHx">
+                <RefName Name="STM32L151QC"/>
+            </Mcu>
+            <Mcu Name="STM32L151RCTx">
+                <RefName Name="STM32L151RC"/>
+            </Mcu>
+            <Mcu Name="STM32L151RCYx">
+                <RefName Name="STM32L151RC"/>
+            </Mcu>
+            <Mcu Name="STM32L151VCTx">
+                <RefName Name="STM32L151VC"/>
+            </Mcu>
+            <Mcu Name="STM32L151ZCTx">
+                <RefName Name="STM32L151ZC"/>
+            </Mcu>
+            <Mcu Name="STM32L151UCY6">
+                <RefName Name="STM32L151UC"/>
+            </Mcu>
+            <Mcu Name="STM32L151UCY6D">
+                <RefName Name="STM32L151UC"/>
+            </Mcu>
+            <Mcu Name="STM32L151UCYx">
+                <RefName Name="STM32L151UC"/>
+            </Mcu>                                                                                                                            
+        </SubFamily>  
+        <SubFamily Name="STM32L152xC">
+            <Mcu Name="STM32L152CCTx">
+                <RefName Name="STM32L152CC"/>
+            </Mcu>
+            <Mcu Name="STM32L152CCUx">
+                <RefName Name="STM32L152CC"/>
+            </Mcu>
+            <Mcu Name="STM32L152VCHx">
+                <RefName Name="STM32L152VC"/>
+            </Mcu>
+            <Mcu Name="STM32L152QCHx">
+                <RefName Name="STM32L152QC"/>
+            </Mcu>
+            <Mcu Name="STM32L152RCTx">
+                <RefName Name="STM32L152RC"/>
+            </Mcu>
+            <Mcu Name="STM32L152RCYx">
+                <RefName Name="STM32L152RC"/>
+            </Mcu>
+            <Mcu Name="STM32L152VCTx">
+                <RefName Name="STM32L152VC"/>
+            </Mcu>
+            <Mcu Name="STM32L152ZCTx">
+                <RefName Name="STM32L152ZC"/>
+            </Mcu>
+            <Mcu Name="STM32L152UCY6">
+                <RefName Name="STM32L152UC"/>
+            </Mcu>            
+            <Mcu Name="STM32L152UCY6D">
+                <RefName Name="STM32L152UC"/>
+            </Mcu>
+            <Mcu Name="STM32L152UCYx">
+                <RefName Name="STM32L152UC"/>
+            </Mcu>                                     
+        </SubFamily>
+        <SubFamily Name="STM32L151xD">
+            <Mcu Name="STM32L151QDHx">
+                <RefName Name="STM32L151QD"/>
+            </Mcu>
+            <Mcu Name="STM32L151RDTx">
+                <RefName Name="STM32L151RD"/>
+            </Mcu> 
+            <Mcu Name="STM32L151RDYx">
+                <RefName Name="STM32L151RD"/>
+            </Mcu> 
+            <Mcu Name="STM32L151VDTx">
+                <RefName Name="STM32L151VD"/>
+            </Mcu> 
+            <Mcu Name="STM32L151ZDTx">
+                <RefName Name="STM32L151ZD"/>
+            </Mcu>                                                              
+        </SubFamily>
+        <SubFamily Name="STM32L152xD">
+            <Mcu Name="STM32L152QDHx">
+                <RefName Name="STM32L152QD"/>
+            </Mcu>
+            <Mcu Name="STM32L152RDTx">
+                <RefName Name="STM32L152RD"/>
+            </Mcu> 
+            <Mcu Name="STM32L152RDYx">
+                <RefName Name="STM32L152RD"/>
+            </Mcu> 
+            <Mcu Name="STM32L152VDTx">
+                <RefName Name="STM32L152VD"/>
+            </Mcu> 
+            <Mcu Name="STM32L152ZDTx">
+                <RefName Name="STM32L152ZD"/>
+            </Mcu>        
+        </SubFamily>
+        <SubFamily Name="STM32L162">
+            <Mcu Name="STM32L162QDHx">
+                <RefName Name="STM32L162QD"/>
+            </Mcu>
+            <Mcu Name="STM32L162RDTx">
+                <RefName Name="STM32L162RD"/>
+            </Mcu>
+            <Mcu Name="STM32L162RDYx">
+                <RefName Name="STM32L162RD"/>
+            </Mcu>
+            <Mcu Name="STM32L162VDTx">
+                <RefName Name="STM32L162VD"/>
+            </Mcu>  
+            <Mcu Name="STM32L162ZDTx">
+                <RefName Name="STM32L162ZD"/>
+            </Mcu>                        
+        </SubFamily>
+        <SubFamily Name="STM32L100">
+            <Mcu Name="STM32L100C6Ux">
+                <RefName Name="STM32L100C6"/>
+            </Mcu>  
+            <Mcu Name="STM32L100R(8-B)Tx">
+                <RefName Name="STM32L100R8"/>
+                <RefName Name="STM32L100RB"/>                                
+            </Mcu>  
+        </SubFamily>        
+    </Family>
+</Family>
