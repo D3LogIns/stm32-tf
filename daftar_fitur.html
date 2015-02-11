@@ -1,0 +1,46 @@
+<H1>Daftar Fitur</H1>
+
+<H3>UART</H3>
+Berupa komunikasi serial standar TTL UART Rx dan Tx yang di konversi menjadi data USB oleh chip FT232RL dengan konektor Micro-USB <br>
+Untuk Ubuntu/Debian butuh paket linux-image-extra-3.16.0-23-generic dan terbaca sebagai /dev/ttyUSBx <br>
+Untuk Windows butuh driver yang dapat di download di situs resmi FTDI dan terbaca sebagai COMx<br>
+Fitur ini wajib ada karena selain untuk interfacing (terminal/shell ) juga menjadi jalur pemrograman via UART bootloader (diaktifkan oleh reset dan pin boot0)
+
+<H3>ADC</H3>
+Berupa 3 trim-potensiometer untuk mensimulasikan Analog to Digital Converter<br>
+Nilai analog yang tersedia antara 0v sampai 3,3v dengan jangkauan digital 12-bit (0 sampai 4093)
+
+<H3>EXTI</H3>
+Berupa 2 tombol untuk mensimulasikan External Interrupt<br>
+External Interrupt berfungsi untuk menjalankan immedietly-respon berupa dari event input digital di pin
+
+<H3>LED</H3>
+Berupa 4 LED untuk mensimulasikan:<br>
+1. contoh sederhana multitasking<br>
+2. penundaan/delay<br>
+3. PWM<br>
+4. Timer GPT
+
+<H3>ICU</H3>
+Berupa pembacaan frekuensi/periode dari sinyal kotak baik nilai rising-to-rising, falling-to-falling, rising-to-falling, atau falling-to-rising<br>
+Dilengkapi rangkaian thresholder untuk mengkonversi secara sederhana dari sinyal non-kotak ke sinyal kotak
+
+<H3>Driver Motor</H3>
+Berupa driver berbasis MOSFET IRF530 dengan level tegangan 12v.<br>
+Tegangan dipisah oleh PC817 agar aman<br>
+Membutuhkan adaptor 12v tambahan.<br>
+Dapat untuk mensimulasikan efek PWM terhadap kecepatan motor.
+
+<H3>Buzzer</H3>
+Berupa driver berbasis MOSFET IRF530 dengan level tegangan 12v.<br>
+Tegangan dipisah oleh PC817 agar aman<br>
+Sama seperti driver motor namun keluaran langsung terhubung continues-buzzer 12v.<br>
+Membutuhkan adaptor 12v tambahan.<br>
+Dapat untuk mensimulasikan efek PWM terhadap suara yang dihasilkan buzzer.
+
+<H3>Alphanumeric-LCD</H3>
+Berupa data-bus nibble (4bit) untuk komunikasi dengan display LCD alphanumeric (bukan graphic) standar chip HD44780.
+
+<H3>Info Compiler</H3>
+Seluruh program yang digunakan di board menggunakan compiler arm-gcc-none-eabi (tersedia untuk Ubuntu/Debian dan Windows).<br>
+Untuk abstraksi hardware dan multitasking menggunakan RealTime Operating System ChibiOS
