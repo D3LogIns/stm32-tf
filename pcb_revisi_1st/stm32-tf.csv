@@ -1,0 +1,29 @@
+Qty,Value,Device,REKOMENDASI TOKO,LINK,ESTIMASI HARGA,TOTAL
+1,F/CM12P,Buzzer,Eltech Ps.Genteng,http://static.rapidonline.com/catalogueimages/Module/M500354P01WL.jpg,10000,10000
+1,H11L1M,H11L1M,Eltech Ps.Genteng,http://www.seekic.com/uploadfile/member_product/40599/201211230498453.jpg,10000,10000
+4,BAUT 2mm,BAUT 2mm,Eltech Ps.Genteng,http://www.iseerobot.com/img/foto_produk/medium_84Baut6cm4mm.jpg,200,800
+1,No Value,JACK-PLUG0,Eltech Ps.Genteng,http://www.futura.ie/CUuploads/Shop/items/256/DS210-2.0mm.jpg,5000,5000
+3,No Value,10-XX,Lapantech Bratang,http://lapantech.com/Micro-Push-Button-Switch?search=button,1000,3000
+1,No Value,2N3904-NPN-TO92-EBC,Lapantech Bratang,http://lapantech.com/2n3904-NPN-General-Amplifier?search=3904,500,500
+1,No Value,PINHD-1X40,Lapantech Bratang,http://lapantech.com/Header-Male-Single-40-pin?search=header,1500,1500
+4,10k,TRIM_EU-CA6V,Lapantech Bratang,http://lapantech.com/Trimpot-10-K-potensio-resistor-variabel?search=trimpot,1500,6000
+1,32khz,CRYSTALTC38H,Lapantech Bratang,http://lapantech.com/Crystal-8-Mhz-KRISTAL-XTAL?search=crystal,3000,3000
+1,8mhz,CRYSTALHC49U-V,Lapantech Bratang,http://lapantech.com/Crystal-32.768-KHz-KRISTAL-RTC?search=crystal,2000,2000
+2,PC817,PC817,Lapantech Bratang,http://lapantech.com/PC817-Photocoupler-switch-saklar-cahaya?search=pc817,4000,8000
+1,TUXGR_16X2_R2,TUXGR_16X2_R2,Lapantech Bratang,http://lapantech.com/LCD-16x2-Backlight-Blue?search=lcd,40000,40000
+1,FT232RL,FT232RL,SFE Malang,http://sfe-electronics.com/id/integrated-circuit/948-ft232rl-ssop-28.html,55000,55000
+2,IRF530,IRF530,SFE Malang,http://sfe-electronics.com/id/transistor/1758-irf540.html,6000,12000
+7,Warna Biru,LEDSML1206,SFE Malang,http://sfe-electronics.com/id/display/1400-smd1206-blue-led.html,850,5950
+7,100nf,C-EUC1206,SFE Malang,http://sfe-electronics.com/id/capacitor/1993-100nf-smd1206-capacitor.html,150,1050
+4,22pf,C-EUC1206,SFE Malang,http://sfe-electronics.com/id/capacitor/1970-22pf-smd1206-capacitor.html,150,600
+11,330ohm,R-EU_R1206,SFE Malang,http://sfe-electronics.com/id/resistor/673-330-ohm-smd1206-resistor.html,75,825
+10,4k7,R-EU_R1206,SFE Malang,http://sfe-electronics.com/id/resistor/684-47k-ohm-smd1206-resistor.html,75,750
+1,STM32F10XRXT6,STM32F10XRXT6,SFE Malang,http://sfe-electronics.com/id/microcontroller-ic/73-stm32f103rbt6.html,55000,55000
+1,USB_MICROB_PLUGCONN-11752,USB_MICROB_PLUGCONN-11752,SFE Malang,http://sfe-electronics.com/id/connector/2475-micro-usb-connector-smt.html,3500,3500
+,,,,,,
+,TOTAL =,,,,,224475
+,PEMBULATAN=,,,,,250000
+,Estimasi Pengerjaan = 2 Minggu,,,,,
+,,,,,,
+,Finished,,,,,
+1,PCB,Manufaktur PCB,Maxtron Sidoarjo,http://www.maxtronpersada.com/pcb-maker/,50000,50000
