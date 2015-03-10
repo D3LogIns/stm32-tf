@@ -1,0 +1,3 @@
+http://www.chibios.org/dokuwiki/doku.php
+http://www.chibios.org/dokuwiki/doku.php?id=chibios:download
+http://sourceforge.net/projects/chibios/
