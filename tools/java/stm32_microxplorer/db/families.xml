@@ -1,0 +1,2797 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+   Copyright 2012 STMicroelectronics
+
+   Licensed under ST Image V2 License, (the "License");
+   You may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.st.com
+
+   Unless required by applicable law or agreed to in writing, software 
+   distributed under the License is distributed on an "AS IS" BASIS, 
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+--> 
+<Families xsi:noNamespaceSchemaLocation="families.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Family Name="STM32F0">
+        <SubFamily Name="STM32F050">
+            <Mcu Name="STM32F050C(4-6)Tx" PackageName="LQFP48" RefName="STM32F050C(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F050K(4-6)Ux" PackageName="UFQFPN32" RefName="STM32F050K(4-6)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F051">
+            <Mcu Name="STM32F051C4Tx" PackageName="LQFP48" RefName="STM32F051C4Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F051C6Tx" PackageName="LQFP48" RefName="STM32F051C6Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F051C8Tx" PackageName="LQFP48" RefName="STM32F051C8Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F051K4Ux" PackageName="UFQFPN32" RefName="STM32F051K4Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F051K6Ux" PackageName="UFQFPN32" RefName="STM32F051K6Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F051K8Ux" PackageName="UFQFPN32" RefName="STM32F051K8Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F051R4Tx" PackageName="LQFP64" RefName="STM32F051R4Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F051R6Tx" PackageName="LQFP64" RefName="STM32F051R6Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F051R8Tx" PackageName="LQFP64" RefName="STM32F051R8Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="1"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+    <Family Name="STM32F1">
+        <SubFamily Name="STM32F100">
+            <Mcu Name="STM32F100C(4-6)Tx" PackageName="LQFP48" RefName="STM32F100C(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F100C(8-B)Tx" PackageName="LQFP48" RefName="STM32F100C(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F100R(4-6)Hx" PackageName="TFBGA64" RefName="STM32F100R(4-6)Hx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F100R(4-6)Tx" PackageName="LQFP64" RefName="STM32F100R(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F100R(8-B)Hx" PackageName="TFBGA64" RefName="STM32F100R(8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F100R(8-B)Tx" PackageName="LQFP64" RefName="STM32F100R(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F100R(C-D-E)Tx" PackageName="LQFP64" RefName="STM32F100R(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F100V(8-B)Tx" PackageName="LQFP100" RefName="STM32F100V(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F100V(C-D-E)Tx" PackageName="LQFP100" RefName="STM32F100V(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F100Z(C-D-E)Tx" PackageName="LQFP144" RefName="STM32F100Z(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F101">
+            <Mcu Name="STM32F101C(4-6)Tx" PackageName="LQFP48" RefName="STM32F101C(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F101C(4-6)Ux" PackageName="VFQFPN48" RefName="STM32F101C(4-6)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F101C(8-B)Tx" PackageName="LQFP48" RefName="STM32F101C(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101C(8-B)Ux" PackageName="VFQFPN48" RefName="STM32F101C(8-B)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101R(4-6)Tx" PackageName="LQFP64" RefName="STM32F101R(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F101R(8-B)Tx" PackageName="LQFP64" RefName="STM32F101R(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101R(C-D-E)Tx" PackageName="LQFP64" RefName="STM32F101R(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101R(F-G)Tx" PackageName="LQFP64" RefName="STM32F101R(F-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="10"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101T(4-6)Ux" PackageName="VFQFPN36" RefName="STM32F101T(4-6)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F101T(8-B)Ux" PackageName="VFQFPN36" RefName="STM32F101T(8-B)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+            </Mcu>
+            <Mcu Name="STM32F101V(8-B)Tx" PackageName="LQFP100" RefName="STM32F101V(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101V(C-D-E)Tx" PackageName="LQFP100" RefName="STM32F101V(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101V(F-G)Tx" PackageName="LQFP100" RefName="STM32F101V(F-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="10"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101Z(C-D-E)Tx" PackageName="LQFP144" RefName="STM32F101Z(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F101ZGTx" PackageName="LQFP144" RefName="STM32F101ZGTx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="10"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F102">
+            <Mcu Name="STM32F102C(4-6)Tx" PackageName="LQFP48" RefName="STM32F102C(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F102C(8-B)Tx" PackageName="LQFP48" RefName="STM32F102C(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F102R(4-6)Tx" PackageName="LQFP64" RefName="STM32F102R(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F102R(8-B)Tx" PackageName="LQFP64" RefName="STM32F102R(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F103">
+            <Mcu Name="STM32F103C(4-6)Tx" PackageName="LQFP48" RefName="STM32F103C(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103C(4-6)Ux" PackageName="VFQFPN48" RefName="STM32F103C(4-6)Ux">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103C(8-B)Tx" PackageName="LQFP48" RefName="STM32F103C(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103C(8-B)Ux" PackageName="VFQFPN48" RefName="STM32F103C(8-B)Ux">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(4-6)Hx" PackageName="TFBGA64" RefName="STM32F103R(4-6)Hx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(4-6)Tx" PackageName="LQFP64" RefName="STM32F103R(4-6)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(8-B)Hx" PackageName="TFBGA64" RefName="STM32F103R(8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(8-B)Tx" PackageName="LQFP64" RefName="STM32F103R(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(C-D-E)Tx" PackageName="LQFP64" RefName="STM32F103R(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(C-D-E)Yx" PackageName="WLCSP64" RefName="STM32F103R(C-D-E)Yx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103R(F-G)Tx" PackageName="LQFP64" RefName="STM32F103R(F-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103T(4-6)Ux" PackageName="VFQFPN36" RefName="STM32F103T(4-6)Ux">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="3"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103T(8-B)Ux" PackageName="VFQFPN36" RefName="STM32F103T(8-B)Ux">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="1"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="2"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103V(8-B)Hx" PackageName="LFBGA100" RefName="STM32F103V(8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103V(8-B)Tx" PackageName="LQFP100" RefName="STM32F103V(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103V(C-D-E)Hx" PackageName="LFBGA100" RefName="STM32F103V(C-D-E)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103V(C-D-E)Tx" PackageName="LQFP100" RefName="STM32F103V(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103V(F-G)Tx" PackageName="LQFP100" RefName="STM32F103V(F-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103Z(C-D-E)Hx" PackageName="LFBGA144" RefName="STM32F103Z(C-D-E)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103Z(C-D-E)Tx" PackageName="LQFP144" RefName="STM32F103Z(C-D-E)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103Z(F-G)Hx" PackageName="LFBGA144" RefName="STM32F103Z(F-G)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F103Z(F-G)Tx" PackageName="LQFP144" RefName="STM32F103Z(F-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F105">
+            <Mcu Name="STM32F105RxTx" PackageName="LQFP64" RefName="STM32F105RxTx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="5"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F105VxHx" PackageName="BGA100" RefName="STM32F105VxHx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="5"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F105VxTx" PackageName="LQFP100" RefName="STM32F105VxTx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="5"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F107">
+            <Mcu Name="STM32F107RxTx" PackageName="LQFP64" RefName="STM32F107RxTx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="5"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F107VxHx" PackageName="BGA100" RefName="STM32F107VxHx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="5"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F107VxTx" PackageName="LQFP100" RefName="STM32F107VxTx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="CORTEX_EVENT" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="1"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="5"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+    <Family Name="STM32F2">
+        <SubFamily Name="STM32F205">
+            <Mcu Name="STM32F205RxTx(RevAZB)" PackageName="LQFP64" RefName="STM32F205RxTx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205RxTx" PackageName="LQFP64" RefName="STM32F205RxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205RxYx(RevAZB)" PackageName="WLCSP66" RefName="STM32F205RxYx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205RxYx" PackageName="WLCSP66" RefName="STM32F205RxYx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205VxTx(RevAZB)" PackageName="LQFP100" RefName="STM32F205VxTx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205VxTx" PackageName="LQFP100" RefName="STM32F205VxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205ZxTx(RevAZB)" PackageName="LQFP144" RefName="STM32F205ZxTx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F205ZxTx" PackageName="LQFP144" RefName="STM32F205ZxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F207">
+            <Mcu Name="STM32F207IxHx" PackageName="UFBGA176" RefName="STM32F207IxHx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F207IxTx" PackageName="LQFP176" RefName="STM32F207IxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F207VxTx" PackageName="LQFP100" RefName="STM32F207VxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F207ZxTx" PackageName="LQFP144" RefName="STM32F207ZxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F215">
+            <Mcu Name="STM32F215RxTx(RevAZB)" PackageName="LQFP64" RefName="STM32F215RxTx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F215RxTx" PackageName="LQFP64" RefName="STM32F215RxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F215VxTx(RevAZB)" PackageName="LQFP100" RefName="STM32F215VxTx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F215VxTx" PackageName="LQFP100" RefName="STM32F215VxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F215ZxTx(RevAZB)" PackageName="LQFP144" RefName="STM32F215ZxTx(RevAZB)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F215ZxTx" PackageName="LQFP144" RefName="STM32F215ZxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F217">
+            <Mcu Name="STM32F217IxHx" PackageName="UFBGA176" RefName="STM32F217IxHx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F217IxTx" PackageName="LQFP176" RefName="STM32F217IxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F217VxTx" PackageName="LQFP100" RefName="STM32F217VxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F217ZxTx" PackageName="LQFP144" RefName="STM32F217ZxTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+    <Family Name="STM32F3">
+        <SubFamily Name="STM32F302">
+            <Mcu Name="STM32F302C(B-C)Tx" PackageName="LQFP48" RefName="STM32F302C(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="4"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F302R(B-C)Tx" PackageName="LQFP64" RefName="STM32F302R(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="4"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F302V(B-C)Tx" PackageName="LQFP100" RefName="STM32F302V(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="2"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="4"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F303">
+            <Mcu Name="STM32F303C(B-C)Tx" PackageName="LQFP48" RefName="STM32F303C(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="4"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="7"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="4"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="8"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F303R(B-C)Tx" PackageName="LQFP64" RefName="STM32F303R(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="4"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="7"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="4"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="8"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F303V(B-C)Tx" PackageName="LQFP100" RefName="STM32F303V(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="4"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="7"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="4"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="8"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F313">
+            <Mcu Name="STM32F313C(B-C)Tx" PackageName="LQFP48" RefName="STM32F313C(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="4"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="7"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="4"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="8"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F313R(B-C)Tx" PackageName="LQFP64" RefName="STM32F313R(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="4"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="7"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="4"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="8"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F313V(B-C)Tx" PackageName="LQFP100" RefName="STM32F313V(B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="4"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="7"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="4"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="8"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F372">
+            <Mcu Name="STM32F372C(8-B-C)Tx" PackageName="LQFP48" RefName="STM32F372C(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F372R(8-B-C)Tx" PackageName="LQFP64" RefName="STM32F372R(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F372V(8-B-C)Tx" PackageName="LQFP100" RefName="STM32F372V(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F372VCHx" PackageName="UFBGA100" RefName="STM32F372VCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="1"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F373">
+            <Mcu Name="STM32F373C(8-B-C)Tx" PackageName="LQFP48" RefName="STM32F373C(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F373R(8-B-C)Tx" PackageName="LQFP64" RefName="STM32F373R(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F373V(8-B-C)Tx" PackageName="LQFP100" RefName="STM32F373V(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F373VCHx" PackageName="UFBGA100" RefName="STM32F373VCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F383">
+            <Mcu Name="STM32F383C(8-B-C)Tx" PackageName="LQFP48" RefName="STM32F383C(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F383R(8-B-C)Tx" PackageName="LQFP64" RefName="STM32F383R(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F383R(8-B-C)Yx" PackageName="WLCSP66" RefName="STM32F383R(8-B-C)Yx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F383V(8-B-C)Tx" PackageName="LQFP100" RefName="STM32F383V(8-B-C)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+            <Mcu Name="STM32F383VCHx" PackageName="UFBGA100" RefName="STM32F383VCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="CAN" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="2"/>
+                <Peripheral Type="HDMI CEC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="3"/>
+                <Peripheral Type="IRTIM" MaxOccurs="1"/>
+                <Peripheral Type="SDADC" MaxOccurs="3"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="11"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+    <Family Name="STM32F4">
+        <SubFamily Name="STM32F405">
+            <Mcu Name="STM32F405O(E-G)Yx" PackageName="WLCSP90" RefName="STM32F405O(E-G)Yx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F405RGTx(RevA)" PackageName="LQFP64" RefName="STM32F405RGTx(RevA)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F405RGTx" PackageName="LQFP64" RefName="STM32F405RGTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F405VGTx(RevA)" PackageName="LQFP100" RefName="STM32F405VGTx(RevA)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F405VGTx" PackageName="LQFP100" RefName="STM32F405VGTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F405ZGTx(RevA)" PackageName="LQFP144" RefName="STM32F405ZGTx(RevA)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F405ZGTx" PackageName="LQFP144" RefName="STM32F405ZGTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F407">
+            <Mcu Name="STM32F407I(E-G)Hx" PackageName="UFBGA176" RefName="STM32F407I(E-G)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F407I(E-G)Tx" PackageName="LQFP176" RefName="STM32F407I(E-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F407V(E-G)Tx" PackageName="LQFP100" RefName="STM32F407V(E-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F407Z(E-G)Tx" PackageName="LQFP144" RefName="STM32F407Z(E-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F415">
+            <Mcu Name="STM32F415OGYx" PackageName="WLCSP90" RefName="STM32F415OGYx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F415RGTx(RevA)" PackageName="LQFP64" RefName="STM32F415RGTx(RevA)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F415RGTx" PackageName="LQFP64" RefName="STM32F415RGTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F415VGTx(RevA)" PackageName="LQFP100" RefName="STM32F415VGTx(RevA)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F415VGTx" PackageName="LQFP100" RefName="STM32F415VGTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F415ZGTx(RevA)" PackageName="LQFP144" RefName="STM32F415ZGTx(RevA)">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F415ZGTx" PackageName="LQFP144" RefName="STM32F415ZGTx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F417">
+            <Mcu Name="STM32F417I(E-G)Hx" PackageName="UFBGA176" RefName="STM32F417I(E-G)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F417I(E-G)Tx" PackageName="LQFP176" RefName="STM32F417I(E-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F417V(E-G)Tx" PackageName="LQFP100" RefName="STM32F417V(E-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F417Z(E-G)Tx" PackageName="LQFP144" RefName="STM32F417Z(E-G)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F427">
+            <Mcu Name="STM32F427I(G-I)Hx" PackageName="UFBGA176" RefName="STM32F427I(G-I)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="6"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F427I(G-I)Tx" PackageName="LQFP176" RefName="STM32F427I(G-I)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="6"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F427V(G-I)Tx" PackageName="LQFP100" RefName="STM32F427V(G-I)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="4"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F427Z(G-I)Tx" PackageName="LQFP144" RefName="STM32F427Z(G-I)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="6"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32F437">
+            <Mcu Name="STM32F437I(G-I)Hx" PackageName="UFBGA176" RefName="STM32F437I(G-I)Hx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="6"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F437I(G-I)Tx" PackageName="LQFP176" RefName="STM32F437I(G-I)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="6"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F437V(G-I)Tx" PackageName="LQFP100" RefName="STM32F437V(G-I)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="4"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32F437Z(G-I)Tx" PackageName="LQFP144" RefName="STM32F437Z(G-I)Tx">
+                <Peripheral Type="ADC" MaxOccurs="3"/>
+                <Peripheral Type="CAN" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="DCMI" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet MII" MaxOccurs="1"/>
+                <Peripheral Type="Ethernet RMII" MaxOccurs="1"/>
+                <Peripheral Type="FSMC CF" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NAND16" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="3"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="6"/>
+                <Peripheral Type="Timer" MaxOccurs="12"/>
+                <Peripheral Type="UART" MaxOccurs="4"/>
+                <Peripheral Type="USART" MaxOccurs="4"/>
+                <Peripheral Type="USB OTG_FS" MaxOccurs="1"/>
+                <Peripheral Type="USB OTG_HS" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+    <Family Name="STM32L1">
+        <SubFamily Name="STM32L100">
+            <Mcu Name="STM32L100C6Ux" PackageName="UFQFPN48" RefName="STM32L100C6Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L100R(8-B)Tx" PackageName="LQFP64" RefName="STM32L100R(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L151x6/8/B">
+            <Mcu Name="STM32L151C(6-8-B)Tx" PackageName="LQFP48" RefName="STM32L151C(6-8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151C(6-8-B)Ux" PackageName="UFQFPN48" RefName="STM32L151C(6-8-B)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151R(6-8-B)Hx" PackageName="TFBGA64" RefName="STM32L151R(6-8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151R(6-8-B)Tx" PackageName="LQFP64" RefName="STM32L151R(6-8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151V(8-B)Hx" PackageName="UFBGA100" RefName="STM32L151V(8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151V(8-B)Tx" PackageName="LQFP100" RefName="STM32L151V(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L151xC">
+            <Mcu Name="STM32L151CCTx" PackageName="LQFP48" RefName="STM32L151CCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151CCUx" PackageName="UFQFPN48" RefName="STM32L151CCUx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151QCHx" PackageName="UFBGA132" RefName="STM32L151QCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151RCTx" PackageName="LQFP64" RefName="STM32L151RCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151RCYx" PackageName="WLCSP64" RefName="STM32L151RCYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151UCYx" PackageName="WLCSP63" RefName="STM32L151UCYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151VCHx" PackageName="UFBGA100" RefName="STM32L151VCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151VCTx" PackageName="LQFP100" RefName="STM32L151VCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151ZCTx" PackageName="LQFP144" RefName="STM32L151ZCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L151xD">
+            <Mcu Name="STM32L151QDHx" PackageName="UFBGA132" RefName="STM32L151QDHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151RDTx" PackageName="LQFP64" RefName="STM32L151RDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151RDYx" PackageName="WLCSP64" RefName="STM32L151RDYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151VDTx" PackageName="LQFP100" RefName="STM32L151VDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L151ZDTx" PackageName="LQFP144" RefName="STM32L151ZDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L152x6/8/B">
+            <Mcu Name="STM32L152C(6-8-B)Tx" PackageName="LQFP48" RefName="STM32L152C(6-8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152C(6-8-B)Ux" PackageName="UFQFPN48" RefName="STM32L152C(6-8-B)Ux">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152R(6-8-B)Hx" PackageName="TFBGA64" RefName="STM32L152R(6-8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152R(6-8-B)Tx" PackageName="LQFP64" RefName="STM32L152R(6-8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152V(8-B)Hx" PackageName="UFBGA100" RefName="STM32L152V(8-B)Hx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152V(8-B)Tx" PackageName="LQFP100" RefName="STM32L152V(8-B)Tx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="2"/>
+                <Peripheral Type="Timer" MaxOccurs="6"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L152xC">
+            <Mcu Name="STM32L152CCTx" PackageName="LQFP48" RefName="STM32L152CCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152CCUx" PackageName="UFQFPN48" RefName="STM32L152CCUx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152QCHx" PackageName="UFBGA132" RefName="STM32L152QCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152RCTx" PackageName="LQFP64" RefName="STM32L152RCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152RCYx" PackageName="WLCSP64" RefName="STM32L152RCYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152UCYx" PackageName="WLCSP63" RefName="STM32L152UCYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152VCHx" PackageName="UFBGA100" RefName="STM32L152VCHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152VCTx" PackageName="LQFP100" RefName="STM32L152VCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152ZCTx" PackageName="LQFP144" RefName="STM32L152ZCTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="2"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L152xD">
+            <Mcu Name="STM32L152QDHx" PackageName="UFBGA132" RefName="STM32L152QDHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152RDTx" PackageName="LQFP64" RefName="STM32L152RDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152RDYx" PackageName="WLCSP64" RefName="STM32L152RDYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152VDTx" PackageName="LQFP100" RefName="STM32L152VDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L152ZDTx" PackageName="LQFP144" RefName="STM32L152ZDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+        <SubFamily Name="STM32L162">
+            <Mcu Name="STM32L162QDHx" PackageName="UFBGA132" RefName="STM32L162QDHx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L162RDTx" PackageName="LQFP64" RefName="STM32L162RDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L162RDYx" PackageName="WLCSP64" RefName="STM32L162RDYx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L162VDTx" PackageName="LQFP100" RefName="STM32L162VDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+            <Mcu Name="STM32L162ZDTx" PackageName="LQFP144" RefName="STM32L162ZDTx">
+                <Peripheral Type="ADC" MaxOccurs="1"/>
+                <Peripheral Type="COMP" MaxOccurs="2"/>
+                <Peripheral Type="DAC" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_MUX" MaxOccurs="1"/>
+                <Peripheral Type="FSMC NOR_RAM" MaxOccurs="1"/>
+                <Peripheral Type="I2C" MaxOccurs="2"/>
+                <Peripheral Type="I2S" MaxOccurs="2"/>
+                <Peripheral Type="LCD" MaxOccurs="1"/>
+                <Peripheral Type="OPAMP" MaxOccurs="3"/>
+                <Peripheral Type="SDIO" MaxOccurs="1"/>
+                <Peripheral Type="SPI" MaxOccurs="3"/>
+                <Peripheral Type="Timer" MaxOccurs="7"/>
+                <Peripheral Type="Touch Sensing" MaxOccurs="1"/>
+                <Peripheral Type="UART" MaxOccurs="2"/>
+                <Peripheral Type="USART" MaxOccurs="3"/>
+                <Peripheral Type="USB" MaxOccurs="1"/>
+            </Mcu>
+        </SubFamily>
+    </Family>
+</Families>

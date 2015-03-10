@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<IP DBVersion="V3.0" IPType="peripheral" Name="USB_OTG_HS" Version="otghs1_v1_1" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" ns0:schemaLocation="http://mcd.rou.st.com/modules.php?name=mcu ../../db/IP_Modes_V3_0.xsd" xmlns="http://mcd.rou.st.com/modules.php?name=mcu">
+	<ModeLogicOperator Name="OR">
+		<Mode Name="Mode">
+			<ModeLogicOperator Name="XOR">
+				<Mode Name="OTG/Dual-Role-Device">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+						<Signal Name="ID"/>
+						<Signal Name="VBUS"/>
+					</SignalLogicalOp>
+				</Mode>
+				<Mode Name="OTG/Dual-Role-Device-(With-SOF)">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+						<Signal Name="ID"/>
+						<Signal Name="SOF"/>
+						<Signal Name="VBUS"/>
+					</SignalLogicalOp>
+				</Mode>				
+				<Mode Name="Host-Only">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+						<Signal Name="VBUS"/>
+					</SignalLogicalOp>
+				</Mode>
+				<Mode Name="Host-Only-(With-SOF)">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+						<Signal Name="ID"/>
+						<Signal Name="SOF"/>
+						<Signal Name="VBUS"/>
+					</SignalLogicalOp>
+				</Mode>
+				<Mode Name="Device-DP-DM">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+					</SignalLogicalOp>
+				</Mode>
+				<Mode Name="Device-Only">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+						<Signal Name="VBUS"/>
+					</SignalLogicalOp>
+				</Mode>
+				<Mode Name="Device-Only-(With-SOF)">
+					<SignalLogicalOp Name="AND">
+						<Signal Name="DM"/>
+						<Signal Name="DP"/>
+						<Signal Name="ID"/>
+						<Signal Name="SOF"/>
+						<Signal Name="VBUS"/>
+					</SignalLogicalOp>
+				</Mode>
+                <Mode Name="OTG/Dual-Role-Device (HS)">
+					<SignalLogicalOp Name="AND">												
+                        <Signal Name="ULPI_CK"/>
+						<Signal Name="ULPI_D0"/>
+						<Signal Name="ULPI_D1"/>
+						<Signal Name="ULPI_D2"/>
+						<Signal Name="ULPI_D3"/>
+						<Signal Name="ULPI_D4"/>
+						<Signal Name="ULPI_D5"/>
+						<Signal Name="ULPI_D6"/>
+						<Signal Name="ULPI_D7"/>
+						<Signal Name="ULPI_DIR"/>
+						<Signal Name="ULPI_NXT"/>
+						<Signal Name="ULPI_STP"/>
+					</SignalLogicalOp>
+				</Mode>	 
+                <Mode Name="Host(HS)">
+					<SignalLogicalOp Name="AND">																	
+                        <Signal Name="ULPI_CK"/>
+						<Signal Name="ULPI_D0"/>
+						<Signal Name="ULPI_D1"/>
+						<Signal Name="ULPI_D2"/>
+						<Signal Name="ULPI_D3"/>
+						<Signal Name="ULPI_D4"/>
+						<Signal Name="ULPI_D5"/>
+						<Signal Name="ULPI_D6"/>
+						<Signal Name="ULPI_D7"/>
+						<Signal Name="ULPI_DIR"/>
+						<Signal Name="ULPI_NXT"/>
+						<Signal Name="ULPI_STP"/>
+					</SignalLogicalOp>
+				</Mode>	  
+                <Mode Name="Device(HS)">
+					<SignalLogicalOp Name="AND">																	
+                        <Signal Name="ULPI_CK"/>
+						<Signal Name="ULPI_D0"/>
+						<Signal Name="ULPI_D1"/>
+						<Signal Name="ULPI_D2"/>
+						<Signal Name="ULPI_D3"/>
+						<Signal Name="ULPI_D4"/>
+						<Signal Name="ULPI_D5"/>
+						<Signal Name="ULPI_D6"/>
+						<Signal Name="ULPI_D7"/>
+						<Signal Name="ULPI_DIR"/>
+						<Signal Name="ULPI_NXT"/>
+						<Signal Name="ULPI_STP"/>
+					</SignalLogicalOp>
+				</Mode>	    
+			</ModeLogicOperator>
+		</Mode>
+    </ModeLogicOperator>		
+	<RefSignal IOMode="GPIO" Name="DM"/>
+	<RefSignal IOMode="GPIO" Name="DP"/>
+	<RefSignal IOMode="GPIO" Name="ID"/>	
+	<RefSignal IOMode="GPIO" Name="SOF"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_CK"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D0"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D1"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D2"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D3"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D4"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D5"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D6"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_D7"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_DIR"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_NXT"/>
+	<RefSignal IOMode="GPIO" Name="ULPI_STP"/>
+	<RefSignal IOMode="GPIO" Name="VBUS"/>
+</IP>

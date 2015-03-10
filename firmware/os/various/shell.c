@@ -148,7 +148,7 @@ static msg_t shell_thread(void *p) {
   chRegSetThreadName("shell");
   chprintf(chp, "\r\nChibiOS/RT Shell\r\n");
   while (TRUE) {
-    chprintf(chp, "VIVAT_TF> ");
+    chprintf(chp, "stm32_TF> ");
     if (shellGetLine(chp, line, sizeof(line))) {
       chprintf(chp, "\r\nlogout");
       break;

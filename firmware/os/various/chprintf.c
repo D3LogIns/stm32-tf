@@ -31,8 +31,8 @@
 #include "chprintf.h"
 #include "memstreams.h"
 
-#define MAX_FILLER 11
-#define FLOAT_PRECISION 100000
+#define MAX_FILLER 16
+#define FLOAT_PRECISION 100
 
 static char *long_to_string_with_divisor(char *p,
                                          long num,

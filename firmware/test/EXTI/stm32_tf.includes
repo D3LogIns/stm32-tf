@@ -1,0 +1,9 @@
+.
+../../os/hal/include/
+../../os/hal/platforms/STM32F1xx
+../../os/kernel/include/
+../../os/ports/GCC/ARMCMx/STM32F1xx/
+../../os/various/
+../../boards/STM32_TF/
+../../os/hal/platforms/STM32/GPIOv1
+../../ext/fatfs/src
