@@ -1,0 +1,14 @@
+Daftar link download software:
+
+=> Git:
+GitEye: http://www.collab.net/downloads
+
+=> Design:
+EagleLight: http://www.cadsoftusa.com/download-eagle/
+
+=> Qt-SDK:
+Qt-Mingw: https://www.qt.io/download/
+
+=> Compiler ARM:
+gcc-arm: https://launchpad.net/gcc-arm-embedded/+download
+

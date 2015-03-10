@@ -1,0 +1,39 @@
+Daftar nama paket
+
+=> Git:
+git-cola
+ssh
+
+=> Design:
+eagle
+
+=> Qt SDK:
+qt4-qtconfig
+libqt4-dev
+libqt5serialport5-dev
+libqt5svg5-dev
+qt4-designer
+qtbase5-dev
+qtcreator
+qttools5-dev
+qt5-default
+
+=> Compiler ARM:
+gcc-arm-none-eabi
+libnewlib-arm-none-eabi
+libnewlib-dev
+
+=> LibUSB:
+usbutils
+libftdi-dev
+libusb-1.0-0-dev
+
+=> Builder:
+automake
+cmake
+dh-autoreconf
+pkg-config
+
+=> Python-Serial:
+python-serial
+python3-serial
